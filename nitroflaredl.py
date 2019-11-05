@@ -1,9 +1,10 @@
 import requests
 import os
+import sys
 
 URL = "https://nitroflare.com/api/v2/getKeyInfo"
 
-PARAMS = {"user" sys.argv[1], "premiumKey": sys.argv[2]}
+PARAMS = {"user": sys.argv[1], "premiumKey": sys.argv[2]}
 
 PATH = sys.argv[3];
 
